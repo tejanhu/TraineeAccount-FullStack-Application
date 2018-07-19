@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="accountApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Application</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+	    <div class="container-fluid">
+	        <div class="navbar-header">
+	            <a class="navbar-brand" href="#">AccountApp</a>
+	        </div>
+	        <ul class="nav navbar-nav">
+	            <li><a ui-sref="dashboard">Dashboard</a></li>
+	            <li><a ui-sref="account">Account</a></li>
+                <li><a ui-sref="trainee">Trainee</a></li>
+	        </ul>
+	    </div>
+	</nav>
+    <div ui-view></div>
+    
+	<link rel="stylesheet" href="scripts/bootstrap.min.css"> 
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/ui-router.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    
+    <script src="app/app.js"></script>
+    <script src="app/app-state-manager.js"></script>
+    <script src="app/feature/account/account-controller.js"></script>
+    <script src="app/feature/dashboard/dashboard-controller.js"></script>
+    <script src="app/feature/trainee/trainee-controller.js"></script>
+    <script src="app/feature/trainee/trainee-service.js"></script>
+    </div>
+</body>
+</html>

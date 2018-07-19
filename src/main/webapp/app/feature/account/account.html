@@ -1,0 +1,22 @@
+<div class="panel panel-default" ng-controller="accountController as accountCtrl">
+	    <div class="panel-heading">Accounts page</div>
+	    <div class="panel-body">
+   		{{accountCtrl.test}}
+   		<div ng-hide="accountCtrl.isHidden">
+        	<h3><span>Accounts table</span></h3>
+        	<table class="table">
+        		<tr>
+        			<th>{{'first_name' | uppercase}}</th>
+        			<th>{{'surname' | uppercase}}</th>
+        			<th>{{'account_number' | uppercase}}</th>
+        		</tr>
+        		<tr ng-repeat="account in accountCtrl.accounts">
+        			<td>{{account.firstName}}</td>
+        			<td>{{account.secondName}}</td>
+        			<td>{{account.accountNumber}}</td>
+        		</tr>
+        	</table>
+        </div>
+        <button class="btn"ng-click="accountCtrl.hideTable()">Hide accounts</button>
+	</div>
+</div>

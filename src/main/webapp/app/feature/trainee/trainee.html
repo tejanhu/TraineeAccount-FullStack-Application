@@ -1,0 +1,10 @@
+<div ng-controller="traineeController as traineeCtrl">
+    <h1>Current trainees:</h1>
+    <div style="max-height: 200px; overflow-y:scroll;">
+        <div ng-repeat="trainee in traineeCtrl.trainees">
+
+                <div ng-click="traineeCtrl.showTrainee(trainee);">{{trainee.id}} .{{trainee.firstName}} {{trainee.secondName}}</div>
+        </div>
+    </div>
+</div>
+
