@@ -27,9 +27,7 @@ public class Subject {
 	@NotEmpty
 	private String name;
 	
-	@Column
-	@NotNull
-	@NotEmpty
+
 	private int score;
 	
 	public Subject() {
