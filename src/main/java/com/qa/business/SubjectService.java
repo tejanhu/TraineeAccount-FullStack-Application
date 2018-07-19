@@ -5,14 +5,14 @@ import javax.inject.Inject;
 import org.apache.log4j.Logger;
 
 import com.qa.persistence.domain.Subject;
-import com.qa.persistence.repository.SubjectRepositoryImpl;
+import com.qa.persistence.repository.SubjectRepository;
 
 public class SubjectService implements SubjectServiceImpl {
 	
 	private static final Logger LOGGER = Logger.getLogger(SubjectService.class);
 	
 	@Inject
-	private SubjectRepositoryImpl repo;
+	private SubjectRepository repo;
 	
 
 

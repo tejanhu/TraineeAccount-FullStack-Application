@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 
 
 import com.qa.persistence.domain.Trainee;
-import com.qa.persistence.repository.TraineeRepositoryImpl;
+import com.qa.persistence.repository.TraineeRepository;
 
 
 public class TraineeService implements TraineeServiceImpl {
@@ -14,7 +14,7 @@ public class TraineeService implements TraineeServiceImpl {
 	private static final Logger LOGGER = Logger.getLogger(TraineeService.class);
 	
 	@Inject
-	private TraineeRepositoryImpl repo;
+	private TraineeRepository repo;
 	
 
 
@@ -50,7 +50,7 @@ public class TraineeService implements TraineeServiceImpl {
 		return repo.getTrainee(id);
 	}
 	
-	public void setRepo(TraineeRepositoryImpl repo) {
+	public void setRepo(TraineeRepository repo) {
 		LOGGER.info("In TraineeService setRepo ");
 		this.repo = repo;
 	}
