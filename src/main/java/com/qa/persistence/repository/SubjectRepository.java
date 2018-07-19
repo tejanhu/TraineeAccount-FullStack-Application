@@ -25,15 +25,15 @@ public class SubjectRepository implements SubjectRepositoryImpl{
 	@Inject
 	private JSONUtility util;
 
-	public String createSubject(String transaction) {
-		Subject aTransaction = util.getObjectForJGson(transaction,Subject.class);
-		em.persist(aTransaction);
+	public String createSubject(String subject) {
+		Subject aSubject = util.getObjectForJGson(subject,Subject.class);
+		em.persist(aSubject);
 //		LOGGER.info("In TransactionRepository createTransaction");
 		return Constants.CREATE_SUBJECT_MESSAGE;
 	}
 
-	public String updateSubject(long id, String newTransaction) {
-		Subject updatedSubject = util.getObjectForJGson(newTransaction, Subject.class);
+	public String updateSubject(long id, String newSubject) {
+		Subject updatedSubject = util.getObjectForJGson(newSubject, Subject.class);
 		Subject subjectInDB = getSubject(id);
 		if(subjectInDB !=null) {
 			subjectInDB = updatedSubject;
