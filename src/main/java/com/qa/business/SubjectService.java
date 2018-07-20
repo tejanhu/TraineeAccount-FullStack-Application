@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 
 import com.qa.persistence.domain.Subject;
 import com.qa.persistence.repository.SubjectRepository;
+import com.qa.persistence.repository.TraineeRepository;
 
 public class SubjectService implements SubjectServiceImpl {
 	
@@ -42,6 +43,10 @@ public class SubjectService implements SubjectServiceImpl {
 		return repo.getSubject(id);
 	}
 
+	public void setRepo(SubjectRepository repo) {
+		LOGGER.info("In SubjectService setRepo ");
+		this.repo = repo;
+	}
 
 
 }
