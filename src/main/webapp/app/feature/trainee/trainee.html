@@ -1,10 +1,26 @@
-<div ng-controller="traineeController as traineeCtrl">
-    <h1>Current trainees:</h1>
-    <div style="max-height: 200px; overflow-y:scroll;">
-        <div ng-repeat="trainee in traineeCtrl.trainees">
-
-                <div ng-click="traineeCtrl.showTrainee(trainee);">{{trainee.id}} .{{trainee.firstName}} {{trainee.secondName}}</div>
+<div class="panel panel-default"ng-controller="traineeController as traineeCtrl">
+    <div class="panel-heading">Trainees page</div>
+    <div class="panel-body">
+        {{traineeCtrl.test}}
+        <div ng-hide="traineeCtrl.isHidden">
+            <h3><span>Trainees table</span></h3>
+            <table class="table">
+                <tr>
+                    <th>{{'id' | uppercase}}</th>
+                    <th>{{'firstName' | uppercase}}</th>
+                    <th>{{'familyName' | uppercase}}</th>
+                    <th>{{'subjects' | uppercase}}</th>
+                    <th>{{'score' | uppercase}}</th>
+                </tr>
+                <tr ng-repeat="trainee in traineeCtrl.trainees">
+                    <td>{{trainee.id}}</td>
+                    <td>{{trainee.firstName}}</td>
+                    <td>{{trainee.familyName}}</td>
+                    <td>{{trainee.subjects[0].name}}</td>
+                    <td>{{trainee.subjects[0].score}}</td>
+                </tr>
+            </table>
         </div>
+        <button class="btn"ng-click="traineeCtrl.hideTable()">Hide trainees</button>
     </div>
 </div>
-

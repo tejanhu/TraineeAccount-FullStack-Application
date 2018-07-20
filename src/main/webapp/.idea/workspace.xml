@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="118ff5bb-26b1-4ea5-9d04-1fd4ae729837" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service/dal/dal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainee.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/feature/trainee/trainee.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainee-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/feature/trainee/trainee-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainee.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service/trainee.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainee.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service/dal/trainee.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-state-manager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app-state-manager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\(function\(\) \{\n\n    var TraineeController \=  function\(dataService\, \$state\) \{\n        \n    \/\/ \	var vm \= this\;\n    \/\/\n    \/\/     vm\.trainees \= \[\n    \/\/         \{\'id\'\: \'1\'\, \'firstName\'\: \'Jarad\'\,\'secondName\'\: \'Huggard\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'2\'\, \'firstName\'\: \'Daryl\'\,\'secondName\'\: \'Conway\'\,\n    \/\/             \'subject\'\:\n    \/\/                 \[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'3\'\, \'firstName\'\: \'Benny\'\,\'secondName\'\: \'Wong\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'4\'\, \'firstName\'\: \'Sam\'\,\'secondName\'\: \'Kirk\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'5\'\, \'firstName\'\: \'Oliver\'\,\'secondName\'\: \'Loades\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'6\'\, \'firstName\'\: \'George\'\,\'secondName\'\: \'Timbrell\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'7\'\, \'firstName\'\: \'Ekaterina\'\,\'secondName\'\: \'Genova\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'8\'\, \'firstName\'\: \'Nawid\'\,\'secondName\'\: \'Mujadidi\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'9\'\, \'firstName\'\: \'Syed\'\,\'secondName\'\: \'Ahmed\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'10\'\, \'firstName\'\: \'Christopher\'\,\'secondName\'\: \'Darrall\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\,\n    \/\/         \{\'id\'\: \'11\'\, \'firstName\'\: \'Adam\'\,\'secondName\'\: \'Afzal\'\,\n    \/\/             \'subject\'\:\[\'Java\:5\'\,\n    \/\/                 \'SQL\:5\'\,\n    \/\/                 \'JavaScript\:5\'\]\}\n    \/\/     \]\;\n    \/\/\n    \/\/\n    \/\/     vm\.showTrainee \= function\(data\)\{\n    \/\/         \/\/ console\.log\(vm\.trainees\)\;\n    \/\/         console\.log\(\&quot;passing trainee function\&quot;\)\n    \/\/         console\.log\(data\)\;\n    \/\/         vm\.selectedTrainee \= data\;\n    \/\/         dataService\.setData\(data\)\;\n    \/\/         \$state\.go\(\&quot;viewTrainee\&quot;\, \{obj\: vm\.selectedTrainee\}\)\;\n    \/\/     \}\n    \/\/\n    \/\/     vm\.selectedTrainee \= dataService\.getData\(\)\;\n    \/\/\n    \/\/ \}\;\n\n        \	var vm \= this\;\n\n        vm\.isHidden \= false\;\n        \n\n    angular\.module\(\'accountApp\'\)\.controller\(\'traineeController\'\,  \[\'dataService\'\,\'\$state\'\,TraineeController\]\)\;\n\}\(\)\)\;</find>
+      <find>accountApp</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/feature/account/account-controller.js" />
+        <option value="$PROJECT_DIR$/app/feature/dashboard/dashboard-controller.js" />
+        <option value="$PROJECT_DIR$/app/feature/trainee/trainee-service.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/service/dal/trainee.js" />
+        <option value="$PROJECT_DIR$/app/feature/trainee/trainee-controller.js" />
+        <option value="$PROJECT_DIR$/app/service/dal/dal.js" />
+        <option value="$PROJECT_DIR$/app/service/trainee.js" />
+        <option value="$PROJECT_DIR$/app/app-state-manager.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/feature/trainee/trainee.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="173" />
+    <option name="y" value="120" />
+    <option name="width" value="1400" />
+    <option name="height" value="679" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="dal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="118ff5bb-26b1-4ea5-9d04-1fd4ae729837" name="Default" comment="" />
+      <created>1532073295332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532073295332</updated>
+      <workItem from="1532073296600" duration="6425000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6425000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18020834" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/feature/account/account.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/account/account-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/dashboard/dashboard-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/trainee/trainee-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/dal/dal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/trainee/viewTrainee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/dal/trainee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/trainee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/trainee/trainee-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="90" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app-state-manager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/feature/trainee/trainee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

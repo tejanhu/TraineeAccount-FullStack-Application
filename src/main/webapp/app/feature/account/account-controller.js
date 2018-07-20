@@ -30,5 +30,5 @@
             
     };
 
-    angular.module('accountApp').controller('accountController', [AccountController]);
+    angular.module('traineeApp').controller('accountController', [AccountController]);
 }());

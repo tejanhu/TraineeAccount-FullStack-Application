@@ -15,5 +15,5 @@
             
     };
 
-    angular.module('accountApp').controller('dashboardController', [DashboardController]);
+    angular.module('traineeApp').controller('dashboardController', [DashboardController]);
 }());
